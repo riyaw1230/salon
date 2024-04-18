@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>book appointment</title>
+    <style>
+      body {
+        background-color: rgb(20, 20, 22);
+      }
+      h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px rgb(214, 85, 45);
+      }
+      .main-form {
+        text-align: center;
+        border: 1px lightblue solid;
+        padding: 20px;
+        margin-top: 100px;
+        margin-left: 500px;
+        width: 500px;
+        border-radius: 10px;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        color: white;
+        padding: 20px;
+        text-align: left;
+        font-size: large;
+      }
+      .main {
+        position: relative;
+      }
+      .list {
+        position: absolute;
+        right: 100px;
+        text-align: center;
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+      }
+      button {
+        padding: 10px;
+        margin-top: 70px;
+        width: 250px;
+        background-color: rgb(214, 85, 45);
+        color: white;
+        font-size: large;
+        border-radius: 5px;
+        border: 1px solid rgb(214, 85, 45);
+        margin-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="main-form">
+        <h1>Karuna Beauty Parlor</h1>
+        <ul class="main">
+          <li>
+            Name <input type="text" placeholder="Enter Name" class="list" />
+          </li>
+          <li>Date <input type="date" class="list" /></li>
+          <li>Time <input type="time" class="list" /></li>
+          <li>
+            Service
+            <textarea name="" id="" cols="30" rows="5" class="list"></textarea>
+          </li>
+        </ul>
+        <button class="btn btn-default">Book Appointment</button>
+      </form>
+    </div>
+  </body>
+</html>
